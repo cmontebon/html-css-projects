@@ -44,8 +44,9 @@ p {
   border-radius: 5px;
 }
 
-.text-primary {
-  color: #f7c08a;
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4;
 }
 
 .btn:hover {
@@ -53,8 +54,16 @@ p {
   background-color: #f7c08a;
 }
 
+.text-primary {
+  color: #f7c08a;
+}
+
 .lead {
   font-size: 20px;
+}
+
+.bg-dark {
+  background: #333;
 }
 
 /* Navbar */
@@ -114,4 +123,31 @@ p {
 #showcase .showcase-content p {
   line-height: 1.7em;
   padding-bottom: 20px;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 400px;
+  color: #fff;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("../img/photo-1.jpg") no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  width: 50%;
+  padding: 50px 30px;
+  float: right;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
